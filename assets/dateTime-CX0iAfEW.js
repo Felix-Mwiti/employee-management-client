@@ -1,1 +1,0 @@
-function e(e){if(!e)return`Not set`;let t=new Date(e);return Number.isNaN(t.getTime())?`Not set`:new Intl.DateTimeFormat(void 0,{day:`numeric`,hour:`numeric`,minute:`2-digit`,month:`short`,year:`numeric`}).format(t)}export{e as t};
